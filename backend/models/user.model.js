@@ -35,7 +35,7 @@ const userSchema = new mongoose.Schema({
             type:String,      // URL to resume file to database
         },
         resumeOriginalname:{
-            type:string, // original name of resume file 
+            type:String, // original name of resume file 
         },
         company:{
             type : mongoose.Schema.Types.ObjectId,
@@ -45,7 +45,7 @@ const userSchema = new mongoose.Schema({
             type :String, // URL to profile phot file 
         },
         profilePhoto:{
-            type: string, // URL to profile photo
+            type: String, // URL to profile photo
         default:"",
         },
      
